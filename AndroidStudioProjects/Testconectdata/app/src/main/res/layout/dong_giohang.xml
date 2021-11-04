@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:background="#FFFFFF">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:layout_weight="7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:text="Tên món hàng"
+            android:textColor="#000000"
+            android:id="@+id/textviewtengiohang"
+            android:textSize="35sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="2"
+                android:text="Giá"
+                android:textColor="#FC0303"
+                android:id="@+id/textviewgiagiohang"
+                android:textSize="30sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        <TextView
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Dung tích"
+            android:textColor="#000000"
+            android:id="@+id/textviewdungtichgiohang"
+            android:textSize="30sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </LinearLayout>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_weight="3"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:text="Số lượng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:background="@null"
+        android:focusable="false"
+        android:text="1"
+        android:id="@+id/buttonvalues"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_weight="1"
+        android:focusable="false"
+        android:text="-"
+        android:id="@+id/buttonminus"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_weight="1"
+        android:focusable="false"
+        android:text="+"
+        android:id="@+id/buttonplus"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

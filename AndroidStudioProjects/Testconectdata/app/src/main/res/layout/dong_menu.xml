@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/listsp">
+
+    <android.support.v7.widget.CardView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="#ffff">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:weightSum="9"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/textviewnuocuong"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#123"
+                android:text="Tên sản phẩm"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp" />
+            <TextView
+                android:id="@+id/textviewgianuocuong"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#123"
+                android:text="Giá sản phẩm"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textviewdungtich"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#123"
+                android:text="Dung tích"
+                android:textSize="20sp"
+                android:layout_marginRight="5dp"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
+
